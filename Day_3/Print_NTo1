@@ -1,0 +1,14 @@
+public class Print_NTo1 {
+  public static void main(String[] args) {
+    int n= 5;
+    recursion(n);
+  }
+  static void recursion(int n){
+    if(n<=0){
+      return;
+    }else{
+      System.out.println(n);
+      recursion(n-1);
+    }
+  }
+}
